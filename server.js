@@ -1,26 +1,22 @@
+// JSON Server module
 const jsonServer = require("json-server");
-const clone = require("clone");
-const data = require("./db.json");
-
-const isProductionEnv = process.env.NODE_ENV === "production";
 const server = jsonServer.create();
+const router = jsonServer.router("booky-db.json");
 
-// For mocking the POST request, POST request won't make any changes to the DB in production environment
-const router = jsonServer.router(
-  isProductionEnv ? clone(data) : "booky-db.json",
-  {
-    _isFake: isProductionEnv,
-  }
-);
-
+// Make sure to use the default middleware
 const middlewares = jsonServer.defaults();
 
-// Serve the JSON data on the '/api' path
-server.use("/api", router);
-
 server.use(middlewares);
-
-server.listen(process.env.PORT || 3001, () => {
+// Add this before server.use(router)
+server.use(
+  // Add custom route here if needed
+  jsonServer.rewriter({
+    "/api/*": "/$1",
+  })
+);
+server.use(router);
+// Listen to port
+server.listen(3000, () => {
   console.log("JSON Server is running");
 });
 
