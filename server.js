@@ -7,6 +7,7 @@ const router = jsonServer.router("booky-db.json");
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
+server.use(jsonServer.bodyParser);
 // Add this before server.use(router)
 server.use(
   // Add custom route here if needed
@@ -16,7 +17,7 @@ server.use(
 );
 server.use(router);
 // Listen to port
-server.listen(3000, () => {
+server.listen(process.env.PORT || 3000, () => {
   console.log("JSON Server is running");
 });
 
