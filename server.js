@@ -8,7 +8,7 @@ const router = jsonServer.router("mic-questions-db.json");
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
-server.use(jsonServer.bodyParser);
+// server.use(jsonServer.bodyParser);
 // Add this before server.use(router)
 // server.use(
 //   // Add custom route here if needed
