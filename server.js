@@ -1,6 +1,7 @@
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router('mic-questions-db.json');
+const fileName = "booky-db.json";
+const router = jsonServer.router(fileName);
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000;
 
