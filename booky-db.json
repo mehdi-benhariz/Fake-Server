@@ -1,0 +1,156 @@
+{
+  "books": [
+    {
+      "id": "0a4d3c3f-e8ed-4a09-a9a9-2c1f8a1a23d1",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "totalPages": 180,
+      "currentPage": 160,
+      "hasNote": true,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg/800px-The_Great_Gatsby_Cover_1925_Retouched.jpg",
+      "recentUpdate": "2023-04-27T05:22:01.100Z"
+    },
+    {
+      "id": "c0ef0d9d-bb07-4f78-b0b3-99d1edcd6eb8",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "totalPages": 281,
+      "currentPage": 250,
+      "hasNote": true,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg",
+      "recentUpdate": "2023-05-03T14:46:22.896Z"
+    },
+    {
+      "id": "a120d40a-273e-49f1-88b9-af9b20117d80",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "totalPages": 279,
+      "currentPage": 239,
+      "hasNote": true,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/PrideAndPrejudiceTitlePage.jpg/800px-PrideAndPrejudiceTitlePage.jpg",
+      "recentUpdate": "2023-05-03T14:46:37.866Z"
+    },
+    {
+      "id": "a7c14f28-309a-46d9-9f18-53727d7df0c6",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "totalPages": 234,
+      "currentPage": 0,
+      "hasNote": false,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg/800px-The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg",
+      "recentUpdate": "2023-04-26T12:30:00Z"
+    },
+    {
+      "id": "e9c98c94-909a-47cf-953f-fb2cdaeb09d8",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "totalPages": 310,
+      "currentPage": 310,
+      "hasNote": true,
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/TheHobbit_FirstEdition.jpg",
+      "recentUpdate": "2023-04-26T12:30:00Z"
+    },
+    {
+      "id": "5b73de5b-65b8-47cf-bf25-60f48750b1e8",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "totalPages": 311,
+      "currentPage": 311,
+      "hasNote": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/62/BraveNewWorld_FirstEdition.jpg",
+      "recentUpdate": "2023-04-26T12:30:00Z"
+    },
+    {
+      "id": "25949c87-91d8-41d2-98c2-d38e45eaf8f6",
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "totalPages": 417,
+      "currentPage": 417,
+      "hasNote": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/Cien_a%C3%B1os_de_soledad_%28book_cover%2C_1967%29.jpg",
+      "recentUpdate": "2023-04-26T12:30:00Z"
+    },
+    {
+      "id": "26b9437f-01cf-4bc6-87d3-447df7138ed9",
+      "title": "test",
+      "author": "mehdi",
+      "totalPages": "100",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7f/The_Power_of_Habit.jpg",
+      "currentPage": 10,
+      "hasNote": true,
+      "recentUpdate": "2023-05-03T14:45:59.458Z"
+    },
+    {
+      "id": "2e050d13-8e72-4fcb-befc-23896d0a1aaf",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "totalPages": 254,
+      "currentPage": 254,
+      "hasNote": false,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Lippincott_doriangray.jpg/800px-Lippincott_doriangray.jpg",
+      "recentUpdate": "2023-04-26T12:30:00Z"
+    },
+    {
+      "id": "c23dcb13-0052-4a3a-bf36-66a80a7e38ec",
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "totalPages": 112,
+      "currentPage": 112,
+      "hasNote": false,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Animal_Farm_-_1st_edition.jpg",
+      "recentUpdate": "2023-04-26T12:30:00Z"
+    },
+    {
+      "id": "d8c32af4-ef1f-4cf1-bb33-1720c2f3f9c2",
+      "title": "The Odyssey",
+      "author": "Homer",
+      "totalPages": 416,
+      "currentPage": 53,
+      "hasNote": false,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Odyssey-crop.jpg/1024px-Odyssey-crop.jpg",
+      "recentUpdate": "2023-04-26T12:30:00Z"
+    },
+    {
+      "id": "1787803f-32dd-401f-806f-754892dbae4a",
+      "title": "Atomic habits",
+      "author": "James Clear",
+      "totalPages": 380,
+      "image": "https://m.media-amazon.com/images/I/51B7kuFwQFL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "currentPage": 380,
+      "hasNote": true,
+      "recentUpdate": "2023-05-05T04:34:28.821Z"
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "bookId": "0a4d3c3f-e8ed-4a09-a9a9-2c1f8a1a23d1",
+      "content": "This is a note about The Great Gatsby and I am writing some stuff here.  I love zustand!",
+      "recentUpdate": "2023-05-03T15:40:44.888Z"
+    },
+    {
+      "id": 2,
+      "bookId": "26b9437f-01cf-4bc6-87d3-447df7138ed9",
+      "content": "Another note about Mehdi and his book.",
+      "recentUpdate": "2023-04-26T12:30:00Z"
+    },
+    {
+      "bookId": "c0ef0d9d-bb07-4f78-b0b3-99d1edcd6eb8",
+      "content": "please work. Now it's working hahah! and better.",
+      "recentUpdate": "2023-05-03T15:54:23.334Z",
+      "id": 3
+    },
+    {
+      "bookId": "a120d40a-273e-49f1-88b9-af9b20117d80",
+      "content": "I started reading this and I found it very interesting!",
+      "recentUpdate": "2023-05-01T17:07:57.715Z",
+      "id": 4
+    },
+    {
+      "bookId": "1787803f-32dd-401f-806f-754892dbae4a",
+      "content": "THE BOOK  is very interesting ! boosts productivity",
+      "recentUpdate": "2023-05-05T03:58:17.977Z",
+      "id": 5
+    }
+  ]
+}
