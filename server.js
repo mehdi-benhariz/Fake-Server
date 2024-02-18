@@ -4,6 +4,7 @@ const server = jsonServer.create();
 const express = require("express");
 const path = require("path");
 const fs = require("fs");
+const router = jsonServer.router("booky-db.json");
 
 // Make sure to use the default middleware
 const middlewares = jsonServer.defaults();
