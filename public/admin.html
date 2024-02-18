@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Interface</title>
+</head>
+<body>
+    <h1>Admin Interface</h1>
+    <label for="databaseSelect">Select a Database:</label>
+    <select id="databaseSelect">
+        <!-- Add more options for other database files here if needed -->
+    </select>
+    <button onclick="changeDatabase()">Change Database</button>
+
+    <script>
+
+        fetch("/list-databases")
+            .then(response => response.json())
+            .then(data => {
+                const select = document.getElementById("databaseSelect");
+                data.forEach(db => {
+                    const option = document.createElement("option");
+                    option.value = db;
+                    option.textContent = db;
+                    select.appendChild(option);
+                });
+            })
+            .catch(error => console.error("Error:", error));
+
+            function changeDatabase() {
+            const selectedDatabase = document.getElementById("databaseSelect").value;
+            fetch("/update-database", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ fileName: selectedDatabase })
+            })
+            .then(response => {
+                if (response.ok) {
+                    alert(`Database changed to ${selectedDatabase}`);
+                } else {
+                    alert("Error changing database");
+                }
+            })
+            .catch(error => console.error("Error:", error));
+        }
+    </script>
+</body>
+</html>
